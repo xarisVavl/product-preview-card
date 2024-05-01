@@ -60,7 +60,6 @@ main {
 }
 .prizing-box {
 display: flex;
-/* justify-content: center; */
 align-items: center;
 }
 
@@ -71,7 +70,7 @@ align-items: center;
 }
 
 .old-price {
-    font-size: 10px;
+    font-size: 14px;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
 }
@@ -89,7 +88,7 @@ image {
 svg {
     margin-right: 10px;
 }
-@media (min-width:500px) {
+@media (min-width:450px) {
     .container {
 max-height:600px;
 max-width: 600px;
