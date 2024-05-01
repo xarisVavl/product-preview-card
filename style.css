@@ -41,6 +41,9 @@ button {
     font-weight: 700;
     font-family:"Montserrat", sans-serif;
 }
+    button:hover {
+        filter:brightness(40%);
+    }
 .title {
     text-transform: uppercase;
 }
